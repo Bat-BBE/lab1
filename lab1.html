@@ -1,23 +1,86 @@
-</DOCTYPE1>
-<html>
+<!DOCTYPE html>
 <head>
+    <title>Lab 1</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-    </title>lab1</title>
-</head> 
+        header {
+            background-color: #000000;
+            color: white;
+        }
+
+        .container {
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .container h1 {
+            color: #000901;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            flex: 1 1 100%;
+            margin: 5px 0;
+        }
+
+        img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        .section h2 {
+            color: #000000;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 5px;
+        }
+
+        .skills {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 <body>
-    <h1>Welcome to my lab 1</h1>
-    <div class="container"></div>
+
+    <header>
+        <h1>Welcome to my lab 1</h1>
+    </header>
+
+    <div class="container">
         <h1>Товч CV</h1>
         <img src="WIN_20240405_18_50_51_Pro.jpg" alt="Цээж зураг" width="150" height="200">
         <div class="contact-info">
-            <p><strong>Овог:</strong>Батбаяр</p>
-            <p><strong>Нэр:</strong>Бат-Эрдэнэ</p>
-            <p><strong>Төрсөн он:</strong>2005.12.10</p>
-            <p><strong>Ам бүл:</strong>5</p>
-            <p><strong>Status:</strong>single</p>
-            <p><strong>И-мэйл:</strong>baterdenebatbayr321@gmail.com</p>
+            <p><strong>Овог:</strong> Батбаяр</p>
+            <p><strong>Нэр:</strong> Бат-Эрдэнэ</p>
+            <p><strong>Төрсөн он:</strong> 2005.12.10</p>
+            <p><strong>Ам бүл:</strong> 5</p>
+            <p><strong>И-мэйл:</strong> baterdenebatbayr321@gmail.com</p>
             <p><strong>Утас:</strong> 86550908</p>
-            <p><strong>Хаяг:</strong> УБ. Баянгол дүүрэг</p>
+            <p><strong>Хаяг:</strong> УБ, Баянгол дүүрэг</p>
         </div>
 
         <div class="section">
@@ -31,7 +94,13 @@
 
         <div class="section">
             <h2>Боловсрол</h2>
-            <p>2010 онд анх сургуульд элсэж орсон. 2022 онд 12 дугаар ангиа төгсөж улмаар МУИС-д элсэн суралцаж байна. </p>
+            <p>2010 онд анх сургуульд элсэж орсон. 2022 онд 12 дугаар ангиа төгсөж улмаар МУИС-д элсэн суралцаж байна.</p>
         </div>
-</body> 
+    </div>
+
+    <footer>
+        &copy; 2024 Миний Вэбсайт. Бүх эрх хуулиар хамгаалагдсан.
+    </footer>
+
+</body>
 </html>
